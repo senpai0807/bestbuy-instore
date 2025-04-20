@@ -170,7 +170,7 @@ export const parseProductDetails = async (body, sku, logger) => {
 
         logger.info(`[${sku}] - Sending Discord Webhook For ${name}...`);
 
-        const hook = new Webhook("https://discord.com/api/webhooks/1299119255039643648/9zcfZyrSWo_Lby1b8Pl47G5APv5Gq5lJDPyfH1GbhCh7XZCkzEah9wOzZwrd0axoBeL5");
+        const hook = new Webhook("REPLACE WITH WEBHOOK URL");
         hook.setUsername('Best Buy Monitor');
         hook.setAvatar("https://i.imgur.com/wpELuHW.jpeg");
 
