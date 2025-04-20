@@ -1,0 +1,20 @@
+{
+  "name": "bestbuy-instore",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "senpai0807",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ptkdev/logger": "^1.8.0",
+    "discord-webhook-node": "^1.1.8",
+    "graceful-fs": "^4.2.11",
+    "koffi": "^2.11.0",
+    "uuid": "^11.1.0"
+  }
+}
